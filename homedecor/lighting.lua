@@ -119,7 +119,7 @@ homedecor.register("glowlight_small_cube_"..color, {
 	selection_box = glowlight_nodebox.small_cube,
 	node_box = glowlight_nodebox.small_cube,
 	groups = { snappy = 3 },
-	light_source = default.LIGHT_MAX-1,
+	light_source = 13,
 	sounds = default.node_sound_glass_defaults(),
 	on_place = minetest.rotate_node
 })
@@ -137,7 +137,7 @@ homedecor.register("plasma_lamp", {
 		}
 	},
 	use_texture_alpha = true,
-	light_source = default.LIGHT_MAX - 1,
+	light_source = 13,
 	sunlight_propagates = true,
 	groups = {cracky=3,oddly_breakable_by_hand=3},
 	sounds = default.node_sound_glass_defaults(),
@@ -164,7 +164,7 @@ homedecor.register("plasma_ball", {
 	},
 	walkable = false,
 	use_texture_alpha = true,
-	light_source = default.LIGHT_MAX - 5,
+	light_source = 9,
 	sunlight_propagates = true,
 	groups = {cracky=3,oddly_breakable_by_hand=3},
 	sounds = default.node_sound_glass_defaults(),
@@ -246,7 +246,7 @@ homedecor.register("candlestick_brass", {
 	selection_box = cs_cbox,
 	walkable = false,
 	groups = { snappy = 3 },
-	light_source = default.LIGHT_MAX-4,
+	light_source = 10,
 })
 
 homedecor.register("wall_sconce", {
@@ -265,7 +265,7 @@ homedecor.register("wall_sconce", {
 	},
 	walkable = false,
 	groups = { snappy = 3 },
-	light_source = default.LIGHT_MAX-4,
+	light_source = 10,
 })
 
 local ol_cbox = {
@@ -291,7 +291,7 @@ homedecor.register("oil_lamp", {
 	selection_box = ol_cbox,
 	walkable = false,
 	groups = { snappy = 3 },
-	light_source = default.LIGHT_MAX-3,
+	light_source = 11,
 	sounds = default.node_sound_glass_defaults(),
 })
 
@@ -303,7 +303,7 @@ homedecor.register("oil_lamp_tabletop", {
 	selection_box = ol_cbox,
 	collision_box = ol_cbox,
 	groups = { snappy = 3 },
-	light_source = default.LIGHT_MAX-3,
+	light_source = 11,
 	sounds = default.node_sound_glass_defaults(),
 })
 
@@ -387,7 +387,7 @@ homedecor.register("lattice_lantern_small", {
 		fixed = { -0.25, -0.5, -0.25, 0.25, 0, 0.25 }
 	},
 	groups = { snappy = 3 },
-	light_source = default.LIGHT_MAX-1,
+	light_source = 13,
 	sounds = default.node_sound_glass_defaults(),
 	on_place = minetest.rotate_node
 })
