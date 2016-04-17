@@ -137,7 +137,7 @@ homedecor.register("plasma_lamp", {
 		}
 	},
 	use_texture_alpha = true,
-	light_source = default.LIGHT_MAX - 1,
+	light_source = 13,
 	sunlight_propagates = true,
 	groups = {cracky=3,oddly_breakable_by_hand=3},
 	sounds = default.node_sound_glass_defaults(),
@@ -164,7 +164,7 @@ homedecor.register("plasma_ball", {
 	},
 	walkable = false,
 	use_texture_alpha = true,
-	light_source = default.LIGHT_MAX - 5,
+	light_source = 9,
 	sunlight_propagates = true,
 	groups = {cracky=3,oddly_breakable_by_hand=3},
 	sounds = default.node_sound_glass_defaults(),
