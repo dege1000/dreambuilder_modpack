@@ -555,3 +555,4 @@ homedecor.register("ceiling_lamp_off", {
 	end,
 	drop = "homedecor:ceiling_lamp"
 })
+
