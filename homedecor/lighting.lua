@@ -99,7 +99,7 @@ homedecor.register("glowlight_quarter_"..color, {
 	selection_box = glowlight_nodebox.quarter,
 	node_box = glowlight_nodebox.quarter,
 	groups = { snappy = 3 },
-	light_source = default.LIGHT_MAX-1,
+	light_source = 13,
 	sounds = default.node_sound_glass_defaults(),
 	on_place = minetest.rotate_node
 })
