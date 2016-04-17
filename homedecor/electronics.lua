@@ -94,7 +94,7 @@ homedecor.register("television", {
 			  }
 		   }
 	},
-	light_source = default.LIGHT_MAX - 1,
+	light_source = 13,
 	groups = { snappy = 3 },
 	sounds = default.node_sound_wood_defaults(),
 })
