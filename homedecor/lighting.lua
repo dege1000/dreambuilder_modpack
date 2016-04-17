@@ -137,7 +137,7 @@ homedecor.register("plasma_lamp", {
 		}
 	},
 	use_texture_alpha = true,
-	light_source = 13,
+	light_source = default.LIGHT_MAX - 1,
 	sunlight_propagates = true,
 	groups = {cracky=3,oddly_breakable_by_hand=3},
 	sounds = default.node_sound_glass_defaults(),
@@ -164,7 +164,7 @@ homedecor.register("plasma_ball", {
 	},
 	walkable = false,
 	use_texture_alpha = true,
-	light_source = 9,
+	light_source = default.LIGHT_MAX - 5,
 	sunlight_propagates = true,
 	groups = {cracky=3,oddly_breakable_by_hand=3},
 	sounds = default.node_sound_glass_defaults(),
@@ -188,7 +188,7 @@ homedecor.register("candle", {
 	selection_box = tc_cbox,
 	walkable = false,
 	groups = { snappy = 3 },
-	light_source = default.LIGHT_MAX-4,
+	light_source = 10,
 })
 
 local c_cbox = {
@@ -209,7 +209,7 @@ homedecor.register("candle_thin", {
 	selection_box = c_cbox,
 	walkable = false,
 	groups = { snappy = 3 },
-	light_source = default.LIGHT_MAX-4,
+	light_source = 10,
 })
 
 local cs_cbox = {
@@ -231,7 +231,7 @@ homedecor.register("candlestick_wrought_iron", {
 	selection_box = cs_cbox,
 	walkable = false,
 	groups = { snappy = 3 },
-	light_source = default.LIGHT_MAX-4,
+	light_source = 10,
 })
 
 homedecor.register("candlestick_brass", {
